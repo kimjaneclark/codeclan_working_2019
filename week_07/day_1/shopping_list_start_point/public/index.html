@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Vue</title>
+	<script src="./js/bundle.js"></script>
+</head>
+<body>
+	<div id="app">
+		<ul>
+			<!-- for loop -->
+			<li v-for="(item, index) in items">
+				{{item.name}}
+			<span v-if="item.purchased">- Purchased</span>
+			<button
+			v-on:click="buyItem(index)"
+			v-if="!item.purchased">Buy Item</button>
+			</li>
+		</ul>
+		<input type= "text" v-model="newItem"/>
+		<button v-on:click="saveNewItem">Save New Item</button>
+	</div>
+</body>
+</html>

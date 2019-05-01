@@ -1,0 +1,15 @@
+{
+  "name": "lab_cinema",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha specs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "macha": "0.0.0",
+    "mocha": "^5.2.0"
+  }
+}

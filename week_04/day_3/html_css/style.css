@@ -1,0 +1,15 @@
+h1 {
+background-color: lightblue;
+padding: 10px 0 10px 40px;
+border: 2px solid red;
+margin: 20px 60px;
+/* margin-top: 40px; */
+}
+
+
+span {
+  /* display: inline-block;
+  margin: 20px;
+  padding: 20px; */
+  display: none;
+}

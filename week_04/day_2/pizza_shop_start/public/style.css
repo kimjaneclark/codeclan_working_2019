@@ -1,0 +1,23 @@
+* {
+  font-family: 'Major Mono Display', monospace;
+}
+
+
+body {
+  background-color: yellow;
+  text-align: center;
+  align-items: center;
+
+}
+
+nav ul {
+  background-color: red;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-around;
+
+}
